@@ -61,5 +61,8 @@ img:hover {
 }
 
 input[type='button'] {
-  text-align: center;
+  margin: auto;
+  display: block;
+  left: 5px;
+  position: relative;
 }
