@@ -1,0 +1,65 @@
+body {
+  background: white;
+}
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  color: black;
+  font-variant: normal;
+  text-shadow: 0 2px 2px #ccc
+}
+
+header {
+border-bottom: 1px solid gray;
+background: white;
+padding: 20px;
+position: fixed;
+width: 100%;
+}
+
+nav {
+  border-bottom: 1px solid gray;
+  background: #9BF7CF;
+  padding: 40px;
+  padding-top: 180px;
+}
+
+main {
+  padding-left: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#profile-photo {
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  margin-left: -60px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-weight: lighter;
+}
+
+img {
+  display: block;
+  transition: transform 1s;
+}
+
+img:hover {
+  color: red;
+  transform: rotateZ(360deg);
+  transform-origin: 50% 50%;
+
+}
+
+input[type='button'] {
+  text-align: center;
+}
